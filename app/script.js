@@ -56,4 +56,9 @@ checkbtn.addEventListener("click", function () {
     //Print(resulttext, classname);
 });
 //Print(resulttext, classname);
+clearbtn.addEventListener("click", function () {
+    ageInput.value = "";
+    result.innerHTML = "";
+});
+
 
